@@ -1,13 +1,11 @@
 import uuidv1 from 'uuid/v1';
 
-// HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Dilan Bopanna', 
+  lang: 'en', 
+  description: 'Welcome', 
 };
 
-// HERO DATA
 export const heroData = {
   title: '',
   name: '',
@@ -15,80 +13,73 @@ export const heroData = {
   cta: '',
 };
 
-// ABOUT DATA
+
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'profile.jpeg',
+  paragraphOne: "Hello, my name is Bopanna. I'm a Computer Science Engineer with experience in Javascript, React, C/C++, Python, SQL, Swift and Java. My dream is to one day start my own business and become an entrepreneur (currently working on some ideas).",
+  paragraphTwo: "I'm constantly learning new things. currently those things include gaining more experience with React.js, Machine learning, Angular, Mongo DB, Node.js, Jquery and CSS.",
+  paragraphThree: 'I love to build Apps and hopefully be a great developer one day.',
+  resume: 'https://1.bp.blogspot.com/-HNj_jGfU87Q/XjEhEqncfGI/AAAAAAAAOdE/l3nh02XMDGgpqAh52spMcAmPOQxC8il-gCLcBGAsYHQ/s1600/CV.jpg', 
 };
 
-// PROJECTS DATA
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project1.png',
+    title: 'Planetzy',
+    info: 'The website is based on planets used to calculate your weight and age on different planets. It also shows different mass, orbit, facts and other info of solar system.',
+    info2: 'It is built using React.js',
+    url: 'https://dilanbopanna.github.io/planetzy/',
+    repo: 'https://github.com/dilanbopanna/planetzy', 
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'project2.png',
+    title: 'Medical Store Management System',
+    info: 'The application is developed to manage medical store, stocks , medicines, staff. The project helps and makes easier in managing medical store in efficient way.',
+    info2: 'It is built using C# and Management server(MS-SQL)',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/dilanbopanna/Medical-Store-Management-Sysytem', 
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'project3.jpg',
     title: '',
-    info: '',
+    info: 'Coming soon',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', 
   },
 ];
 
-// CONTACT DATA
+
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'bopannamj@gmail.com',
 };
 
-// FOOTER DATA
+
 export const footerData = {
   networks: [
     {
       id: uuidv1(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/bopannamj',
     },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/bopannamj4a7a7/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/dilanbopanna',
     },
   ],
 };
 
-// Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, 
 };
