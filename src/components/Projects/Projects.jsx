@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import ProgressBar from 'react-animated-progress-bar';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -31,6 +32,7 @@ const Projects = () => {
             const { id, title, info, info2, url, repo, img } = project;
 
             return (
+              
               <Row key={id}>
                 <Col lg={4} sm={12}>
                   <Fade
@@ -108,11 +110,108 @@ const Projects = () => {
                   </Fade>
                 </Col>
               </Row>
+           
+          
             );
           })}
+        <div class='skills'>
+          <Fade bottom duration={1000} delay={300} distance="0px">
+          <h1>SKILLS</h1>
+          </Fade>
+          <Row>
+            <Col class='skills-col1' lg={6} sm={12}>
+              
+            <ProgressBar
+        width="100%"
+        height="10px"
+        rect
+        fontColor="$dark-blue-text"
+        percentage="70"
+        rectPadding="1px"
+        rectBorderRadius="20px"
+        trackPathColor="transparent"
+        bgColor="red"
+        trackBorderColor="white"
+      />
+      <p>Javascript</p>
+      
+      <ProgressBar
+        width="100%"
+        height="10px"
+        rect
+        fontColor="$dark-blue-text"
+        percentage="65"
+        rectPadding="1px"
+        rectBorderRadius="20px"
+        trackPathColor="transparent"
+        bgColor="red"
+        trackBorderColor="white"
+      />
+      <p>Python</p>
+      
+       <ProgressBar
+        width="100%"
+        height="10px"
+        rect
+        fontColor="$dark-blue-text"
+        percentage="75"
+        rectPadding="1px"
+        rectBorderRadius="20px"
+        trackPathColor="transparent"
+        bgColor="red"
+        trackBorderColor="white"
+      />
+      <p>React</p>
+            </Col>
+            <Col class="skills-col2" lg={6} sm={12}>
+            
+            <ProgressBar
+        width="100%"
+        height="10px"
+        rect
+        fontColor="$dark-blue-text"
+        percentage="65"
+        rectPadding="1px"
+        rectBorderRadius="20px"
+        trackPathColor="transparent"
+        bgColor="red"
+        trackBorderColor="white"
+      />
+      <p>HTML/CSS</p>
+      
+       <ProgressBar
+        width="100%"
+        height="10px"
+        rect
+        fontColor="$dark-blue-text"
+        percentage="50"
+        rectPadding="1px"
+        rectBorderRadius="20px"
+        trackPathColor="transparent"
+        bgColor="red"
+        trackBorderColor="white"
+      />
+      <p>Jquery</p>
+      
+       <ProgressBar
+        width="100%"
+        height="10px"
+        rect
+        fontColor="$dark-blue-text"
+        percentage="75"
+        rectPadding="1px"
+        rectBorderRadius="20px"
+        trackPathColor="transparent"
+        bgColor="red"
+        trackBorderColor="white"
+      />
+      <p>C/C++</p></Col>
+          </Row>
+        </div>
         </div>
       </Container>
     </section>
+ 
   );
 };
 
