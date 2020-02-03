@@ -43,12 +43,12 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project3.jpg',
-    title: '',
-    info: 'Coming soon',
-    info2: '',
-    url: '',
-    repo: '', 
+    img: 'project3.png',
+    title: 'DWeb',
+    info: 'This project is a dummy editable website for companies and businesses. It is a static website with latest tools included in it.',
+    info2: 'This website is built on React. ',
+    url: 'https://dilanbopanna.github.io/demo/',
+    repo: 'https://github.com/dilanbopanna/demo', 
   },
 ];
 
