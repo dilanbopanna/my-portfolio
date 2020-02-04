@@ -112,7 +112,40 @@ const Projects = () => {
               
             );
           })}
-          
+         <div class='skills'>
+          <Fade bottom duration={1000} delay={300} distance="0px">
+          <h1>SKILLS</h1>
+          </Fade>
+          <Row>
+            <Col class='skills-col1' lg={6} sm={12}>
+              <Fade cascade top>
+            <li>
+            <p>HTML/CSS</p><span class='bar'><span class='htmll'></span></span>
+            </li>
+            <li>
+            <p>Javascript</p><span class='bar'><span class='javascript'></span></span>
+            </li>
+            <li>
+            <p>React</p><span class='bar'><span class='react'></span></span>
+            </li>
+            </Fade>
+            </Col>
+            <Col class="skills-col2" lg={6} sm={12}>
+              <Fade cascade top>
+            <li>
+            <p>Python</p><span class='bar'><span class='python'></span></span>
+            </li>
+            <li>
+            <p>Jquery</p><span class='bar'><span class='jquery'></span></span>
+            </li>
+            <li>
+            <p>C/C++</p><span class='bar'><span class='clang'></span></span>
+            </li>
+            </Fade>
+            </Col>
+          </Row>
+        </div>
+         
         </div>
       </Container>
     </section>

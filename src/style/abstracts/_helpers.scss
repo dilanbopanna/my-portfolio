@@ -7,3 +7,113 @@
 .load-hidden {
   visibility: hidden;
 }
+.skills h1 {
+  padding-top: 4%;
+  font-size: 40px;
+  padding-bottom: 6%;
+
+}
+.skills li {
+  list-style: none;
+  margin: 20px 0;
+  padding-bottom: 5%;
+}
+.bar {
+  background: black;
+  display: block;
+  height: 2px;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 7px #e06969b3;
+  position: relative;
+  left: 0;
+}
+
+.bar span{
+height: 1px;
+background-color:#e7213b ;
+left: 0;
+position: absolute;
+
+}
+
+.htmll {
+  width: 75%;
+  animation: htmll 2s ease-out;
+  
+}
+
+.javascript {
+  width: 70%;
+  animation: javascript 2s ease-out;
+  
+}
+.react {
+  width: 80%;
+  animation: react 2s ease-out;
+  
+}
+.python {
+  width: 78%;
+  animation: python 2s ease-out;
+  
+}
+.jquery {
+  width: 55%;
+  animation: jquery 2s ease-out;
+  
+}
+.clang {
+  width: 75%;
+  animation: clang 2s ease-out;
+  
+}
+ 
+@keyframes htmll{
+  0%{
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes javascript{
+  0%{
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  };
+}
+@keyframes react{
+  0%{
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes python{
+  0%{
+    width: 0%;
+  }
+  100% {
+    width: 78%;
+  }
+}
+@keyframes jquery{
+  0%{
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
+@keyframes clang{
+  0%{
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
