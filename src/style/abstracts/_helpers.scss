@@ -117,3 +117,20 @@ position: absolute;
     width: 75%;
   }
 }
+.logo  {
+ height: 80px;
+ position: fixed;
+ left: 0;
+ z-index: 1;
+}
+.logo:hover {
+  animation: spin 2s ease-in-out;
+}
+@keyframes spin {
+  from{
+  transform: rotateY(0deg);
+  }
+  to{
+  transform: rotateY(360deg);
+  }
+ }

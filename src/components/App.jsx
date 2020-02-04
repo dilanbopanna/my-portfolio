@@ -4,6 +4,7 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
+import favicon from '../images/favicon.png'
 
 import { PortfolioProvider } from '../context/context';
 
@@ -25,6 +26,8 @@ function App() {
   }, []);
 
   return (
+    <div>
+    <div><a href="#top"> <img class='logo' src={favicon} alt='logo'/></a></div>
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
       <Hero />
       <About />
@@ -32,6 +35,7 @@ function App() {
       <Contact />
       <Footer />
     </PortfolioProvider>
+    </div>
   );
 }
 
