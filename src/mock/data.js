@@ -19,7 +19,7 @@ export const aboutData = {
   paragraphOne: "Hello, my name is Bopanna. I'm a Computer Science Engineer with experience in Javascript, React, C/C++, Python, SQL, Swift, HTML/CSS and Java. My dream is to one day start my own business and become an entrepreneur (currently working on some ideas).",
   paragraphTwo: "I'm constantly learning new things, currently those things include gaining more experience with React.js, React Native, Machine learning, Angular.js , Mongo DB, Node.js and Jquery.",
   paragraphThree: 'I love to build Apps and hopefully be a great developer one day.',
-  resume: 'https://1.bp.blogspot.com/-HNj_jGfU87Q/XjEhEqncfGI/AAAAAAAAOdE/l3nh02XMDGgpqAh52spMcAmPOQxC8il-gCLcBGAsYHQ/s1600/CV.jpg', 
+  resume: 'https://1.bp.blogspot.com/-kaziINTFBZw/XkWQo6fIF1I/AAAAAAAAOec/YtAlmZ65Wa8MaRzFg5i7IRkCzKdDS1XSQCLcBGAsYHQ/s1600/cv-1.png', 
 };
 
 export const projectsData = [
