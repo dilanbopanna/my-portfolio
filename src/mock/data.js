@@ -16,8 +16,8 @@ export const heroData = {
 
 export const aboutData = {
   img: 'profile.jpeg',
-  paragraphOne: "Hello, my name is Bopanna. I'm a Computer Science Engineer with experience in Javascript, React, C/C++, Python, SQL, Swift and Java. My dream is to one day start my own business and become an entrepreneur (currently working on some ideas).",
-  paragraphTwo: "I'm constantly learning new things. currently those things include gaining more experience with React.js, Machine learning, Angular, Mongo DB, Node.js, Jquery and CSS.",
+  paragraphOne: "Hello, my name is Bopanna. I'm a Computer Science Engineer with experience in Javascript, React, C/C++, Python, SQL, Swift, HTML/CSS and Java. My dream is to one day start my own business and become an entrepreneur (currently working on some ideas).",
+  paragraphTwo: "I'm constantly learning new things, currently those things include gaining more experience with React.js, React Native, Machine learning, Angular.js , Mongo DB, Node.js and Jquery.",
   paragraphThree: 'I love to build Apps and hopefully be a great developer one day.',
   resume: 'https://1.bp.blogspot.com/-HNj_jGfU87Q/XjEhEqncfGI/AAAAAAAAOdE/l3nh02XMDGgpqAh52spMcAmPOQxC8il-gCLcBGAsYHQ/s1600/CV.jpg', 
 };
@@ -34,9 +34,9 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project2.png',
-    title: 'Medical Store Management System',
-    info: 'The application is developed to manage medical store, stocks , medicines, staff. The project helps and makes easier in managing medical store in efficient way.',
+    img: 'project2.jpeg',
+    title: 'MediCo',
+    info: 'The application is developed to manage Medical store, stocks , medicines, staff. The project helps and makes easier in managing medical store in efficient way.',
     info2: 'It is built using C# and Management server(MS-SQL)',
     url: '',
     repo: 'https://github.com/dilanbopanna/Medical-Store-Management-Sysytem', 
